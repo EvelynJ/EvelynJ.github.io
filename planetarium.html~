@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>Evelyn Johnston Homepage</title>
+  <title>Evelyn Johnston Homepage</title> 
+  <meta name="description" content="Inflativerse" /> 
+  <meta name="keywords" content="Evelyn, Johnston, astronomy, Nottingham, University, Inflativerse, Evelyn Johnston" /> 
+   <meta name="author" content="Evelyn Johnston"> 
+   <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34490412-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+  <div id="main">
+    <div id="links"></div>
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1>Evelyn Johnston</span></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="tab_selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li class="tab_selected"><a href="planetarium.html">Planetarium</a></li>
+          <li><a href="publications.html">Publications and Posters</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="site_content">
+      <div id="panel"><img src="style/new_panel.png" alt="Galaxies Image" /></div> 
+      <div class="sidebar">
+        <!-- insert your sidebar items here --> 
+        <span class="left"><img src="style/Flyer-Inflativerse-Inside_small.jpg" width="175" height="130"  alt="flyer-inside" /></span> 
+        <span class="left"><img src="style/Flyer-Inflativerse-Outside_small.jpg" width="175" height="130"  alt="flyer-outside" /></span>  
+        <span class="left"><img src="style/IMG_7150.JPG" width="175" height="130"  alt="projector 1" /></span>   
+        <span class="left"><img src="style/IMGP2001.JPG" width="175" height="130"  alt="projector 2" /></span>
+<span class="centre"><img src="style/Constellations2a_orion.JPG" width="175" height="215" alt="Orion"/></span>  
+<span class="centre"><img src="style/Dome7.jpg" width="175" height="130" alt="dome"/></span> 
+<span class="centre"><img src="style/greek_legends1.JPG" width="175" height="130" alt="greek legends"/></span>
+<span class="centre"><img src="style/Inflativerse_at_MayFest_2012.jpg" width="175" height="130" alt="showtime"/></span>  
+      </div> 
+
+
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>The Inflativerse</h1>
+        <p></p> 
+        <p>The Inflativerse is an inflatable planetarium run by the Astronomy Group at the University of Nottingam, which is taken to local schools and outreach events. I have been joint-manager on this project since the project started in July 2011, and am responsible for recruiting and training new volunteers, organising school visits and outreach events, and writing and presenting the shows.  </p>
+ 
+        <p>It is said that a picture says more than a thousand words. This is especially true in astronomy, where the first step to attempting to answer some of the fundamental questions about life, the Universe and everything is to simply look up and appreciate the true beauty of the night sky and our insignificance in the Universe. This is difficult to achieve however in the UK due to the light pollution and British weather, so we use The Inflativerse to help people take this first step. Our shows tend to cover a range of topics, including the stars and constellations, navigation by the stars, the phases of the Moon, how the skies change each season, and the myths behind the constellations. For older audiences, we try to introduce more of the science behind astronomy into the shows, such as why some stars have different colours, and also a bit about what research we do as astronomers and pointing out anything that may have made it into the news. The running costs are covered by the University of Nottingham, and in return we focus our visits on schools in underprivileged areas that are part of the University's Widening Participation Scheme. These schools are selected as they would normally be unable to afford such an experience for their students, and because they have very few students who continue with Physics as GCSE or A-Level.</p> 
+        <p>We now have two videos describing the Inflativerse and the work we do with it, which can be seen below, and more information can be found on the Inflativerse <a href="http://www.nottingham.ac.uk/astronomy/planetarium/">website.</a></p>
+        <p></p>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/jSc05iFjZio" frameborder="0" allowfullscreen></iframe>
+        <p></p>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/cWBhET4Rq28" frameborder="0" allowfullscreen></iframe>
+
+        <p>Alternative links to these videos can be found <a href="http://www.youtube.com/watch?v=jSc05iFjZio">here</a> and <a href="http://www.youtube.com/watch?v=cWBhET4Rq28">here</a>.</p>
+        
+
+<p style=" position: absolute; bottom: 100; left: 10; width: 30%; text-align: left;"><font color=black> 
+<script language="javascript">
+var theDate = new Date(document.lastModified);
+var ukDate = theDate.toGMTString();
+document.write("<i>Last updated "+ukDate+"<I>");
+</script> 
+</font> 
+
+
+ </div>
+    <div id="site_content_bottom"></div>
+    </div>
+ 
+
+<!--    <div <p style="  bottom: 10; left: 10; width: 50%; text-align: centre;"><font color=white> 
+<script language="javascript">
+var theDate = new Date(document.lastModified);
+var ukDate = theDate.toGMTString();
+document.write("<i>Last updated "+ukDate+"<I>");
+</script> 
+</font></p>
+ </div>-->
+
+
+
+    <div id="footer"><a><address><a href="mailto:ppxej@nottingham.ac.uk">Evelyn Johnston</a></address> </a> <a href="http://www.dcarter.co.uk">design by dcarter</a></div>^M  
+  </div>  
+</body>  
+</html>

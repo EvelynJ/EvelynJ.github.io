@@ -1,0 +1,177 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+
+
+<head>
+
+  <title>Evelyn Johnston Homepage</title>
+
+  <meta name="description" content="Homepage of Evelyn Johnston" />
+
+  <meta name="keywords" content="Evelyn, Johnston, astronomy, astrophysics, Nottingham, University, galaxy, evolution, lenticular, S0, Inflativerse, Evelyn Johnston" />
+
+  <meta name="author" content="Evelyn Johnston"> 
+
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34490412-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+
+
+<body>
+
+  <div id="main">
+
+    <div id="links"></div>
+
+    <div id="header">
+
+      <div id="logo">
+
+        <div id="logo_text">
+
+          <h1>Evelyn Johnston</h1>
+
+        </div>
+
+      </div>
+
+      <div id="menubar">
+
+        <ul id="menu">
+
+          <!-- put class="tab_selected" in the li tag for the selected page - to highlight which page you're on -->
+
+          <li class="tab_selected"><a href="index.html">Home</a></li>
+
+          <li><a href="research.html">Research</a></li>
+
+          <li><a href="planetarium.html">Planetarium</a></li>
+
+          <li><a href="publications.html">Publications and Talks</a></li>
+
+          <li><a href="contact.html">Contact Me</a></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div id="site_content">
+
+      <div id="panel"><img src="style/new_panel.png" alt="Galaxies Image" /></div>
+
+      <div class="sidebar">
+
+        <!-- insert your sidebar items here -->
+
+        <span class="left"><img src="style/photo6.png" alt="photo" /></span>
+        
+        <h1>Latest News</h1>
+
+
+        <h2>Vice-Chancellor's Achievement Award</h2>
+
+         <h3>21st May 2013</h3>
+
+        <p>Boris Haeussler, Nina Hatch and I have been awarded a Vice-Chancellor's Achievement Award for our work in setting up and running The Inflativerse.</p>
+        <p></p>
+        <p></p>
+
+        <h2>Dean Moore Scholarship</h2>
+
+         <h3>19th February 2013</h3>
+
+        <p>I have been awarded the Dean Moore Scholarship by the University of Nottingham. This is a university endowed postgraduate prize in recognition of the progress I have made in my research and my contribution to the postegraduate community.</p>
+        <p></p>
+        <p></p>
+
+
+       
+  
+        <p><script type="text/javascript" src="http://jj.revolvermaps.com/r.js"></script><script type="text/javascript">rm_f1st('0','194','true','false','000000','9b442jb1g6g','true','ff0000');</script><noscript><applet codebase="http://rj.revolvermaps.com/j" code="core.RE" width="194" height="194" archive="g.jar"><param name="cabbase" value="g.cab" /><param name="r" value="true" /><param name="n" value="false" /><param name="i" value="9b442jb1g6g" /><param name="m" value="0" /><param name="s" value="194" /><param name="c" value="ff0000" /><param name="v" value="true" /><param name="b" value="000000" /><param name="rfc" value="true" /></applet></noscript><br /></p></div> 
+        <div id="content">
+
+        <!-- insert the page content here -->
+
+    <!--     <h1>Welcome to my homepage</h1>-->
+        <p></p>
+        <p></p>
+
+
+        <p>I am currently a final year a PhD student in the <a href="http://www.nottingham.ac.uk/astronomy">Astronomy group</a> at the <a href="http://www.nottingham.ac.uk">University of Nottingham</a> in the UK. I work with Alfonso Aragon-Salamanca and Mike Merrifield, looking at the formation and evolution of S0 galaxies and how they transform from spirals. To this end, I am working towards decomposing long-slit spectra taken along the major-axis of S0s in nearby clusters into separate bulge and disc spectra in order to study the stellar populations within each component individually. These studies will provide clues to the star formation histories of the bulge and disc, and therefore will hopefully help us understand how these galaxies formed. </p>
+
+        <p>In addition to my research, I have also acted as joint-manager of <a href="http://www.inflativerse.org.uk/">The Inflativerse</a>, alongside Dr Nina Hatch and Dr Boris Haeussler, since the project began in summer 2011. The Inflativerse is an inflatable planetarium that is taken to schools and outreach events in the Nottingham area in order to reignite peoples interest in physics and astronomy. Over the last two years we have set up the project and built up a team of 15-20 volunteers of undergraduate and postgraduate students and staff at the university, who all share an interest in astronomy that they want to pass onto the next generation of scientists.</p>
+
+
+
+
+     <p>Previously I studied for a Masters degree in Physics and Astronomy at the <a href="http://www.sheffield.ac.uk">University of Sheffield</a>, which I finished in June 2010. During this period I got the opportunity to spend my Masters year working as a support astronomer on the Isaac Newton Telescope in La Palma, finishing in September 2010.</p>
+
+       <p>Please follow the tabs at the top of the page to read about my <a href="http://www.nottingham.ac.uk/~ppxej/research.html">research</a> and <a href="http://www.nottingham.ac.uk/~ppxej/planetarium.html">outreach</a> work.</p>
+
+
+
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+
+
+  
+<p style=" position: absolute; bottom: 100; left: 10; width: 30%; text-align: left;"><font color=black> 
+<script language="javascript">
+var theDate = new Date(document.lastModified);
+var ukDate = theDate.toGMTString();
+document.write("<i>Last updated "+ukDate+"<I>");
+</script> 
+</font>    
+        </div>
+    <div id="site_content_bottom"></div>
+
+    </div>
+
+</p>
+
+        <p></p>
+        <p></p> 
+        <p></p> 
+        <p></p>  
+        <p></p>  
+   
+
+
+
+    <div id="footer"><a><address><a href="mailto:ppxej@nottingham.ac.uk">Evelyn Johnston</a></address> </a> <a href="http://www.dcarter.co.uk">design by dcarter</a></div>
+
+  </div>
+
+</body>
+
+</html>
+
