@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>Evelyn Johnston Homepage</title> 
+  <meta name="description" content="Homepage of Evelyn Johnston" /> 
+  <meta name="keywords" content="Evelyn, Johnston, contact, astronomy, astrophysics, Nottingham, University, galaxy, evolution, lenticular, S0, Inflativerse, Evelyn Johnston" /> 
+  <meta name="author" content="Evelyn Johnston"> 
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34490412-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+  <div id="main">
+    <div id="links"></div>
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1>Evelyn Johnston</span></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="tab_selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="planetarium.html">Planetarium</a></li>
+          <li class="tab_selected"><a href="publications.html">Publications and Talks</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+ 
+    <div id="site_content">
+      <div id="panel"><img src="style/new_panel.png" alt="Galaxies" /></div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>My Publications</h1>
+        <ul> 
+          <li><a href="http://uk.arxiv.org/abs/1403.5561">The Origin of S0s in Clusters: evidence from the bulge and disc star formation histories</a>, Johnston E. J., Aragon-Salamanca A., Merrifield M. R. 2014, accepted for publication in MNRAS (arXiv:1403.5561) </li>
+        </ul> 
+        <ul>
+	  <li><a href="http://uk.arxiv.org/abs/1309.2206">Clues to the Formation of Lenticular Galaxies Using Spectroscopic Bulge-Disk Decomposition</a>, Johnston E. J., Aragon-Salamanca A., Merrifield M. R., Bedregal A. G., To appear in the conference proceedings of The Structure and Dynamics of Disk Galaxies, M.S. Seigar and P. Treuthardt, eds. </li>
+        </ul> 
+        <ul>
+          <li><a href="http://adsabs.harvard.edu/abs/2013MNRAS.428.1296J">Disentangling the stellar populations in the counter-rotating disc galaxy NGC 4550</a>, Johnston E. J., Merrifield, M. R., Aragon-Salamanca A., Cappellari, M., 2013, MNRAS, 428, 1296-1302 </li>
+        </ul> 
+        <ul>
+          <li><a href="http://adsabs.harvard.edu/abs/2012MNRAS.422.2590J">Spectroscopic bulge-disc decomposition: a new method to study the evolution of lenticular galaxies</a>, Johnston E. J., Aragon-Salamanca A., Merrifield M. R., Bedregal A. G., 2012, MNRAS, 422; 2590-2599. </li>
+        </ul>
+        <p></p> 
+        <p></p> 
+        <p></p> 
+        <h1>Posters</h1>
+        <ul>
+           <li><a href="EJohnston_poster3.pdf">Understanding the formation of NGC 4550, a lenticular galaxy with counter-rotating stellar discs</a>, presented at the University of Nottingham as part of the postgraduate poster competition within the Department of Physics, February 2013.</li>
+           <li><a href="EJohnston_poster2.pdf">Spectroscopic bulge-disc decomposition: a new method to study the evolution of lenticular galaxies</a>, presented at the University of Nottingham as part of the postgraduate poster competition within the Department of Physics, February 2012.</li> 
+           <li><a href="EJohnston_poster1.pdf">Spectroscopic bulge-disc decomposition: a new method to study the evolution of lenticular galaxies</a>, presented at the XXIII Canary Islands Winter School of Astrophysics: Secular Evolution of Galaxies, Puerto de la Cruz, Tenerife, Spain, 14th-25th November 2011. </li>
+
+
+        </ul>
+        <p></p> 
+        <p></p> 
+
+
+        <h1>Talks</h1>
+           <ul>
+
+           <li>Clues to the Formation of Lenticular Galaxies from Spectroscopic Bulge-Disc Decomposition, presented at the Structure and Dynamics of Disk Galaxies, Arkansas, USA, August 2013. </li>
+
+           <li>Probing the Transformation of Spirals to S0s Using Spectroscopic Bulge-Disc Decomposition, presented at the RAS National Astronomy Meeting,St. Andrews, July 2013. </li>
+
+           <li>Probing the Transformation of Spirals to S0s Using Their Bulge and Disc Star Formation Histories, Invited seminar at the University of Oxford, department of Physics and Astronomy (extra-galactic group), in June 2013. </li>
+
+           <li><a href="Inflativerse_seminar.pdf">The Inflativerse</a>, Invited seminar with Boris Haeussler and Nina Hatch, presented at the Institute for Science and Society, Department of Sociology, University of Nottingham, UK in March 2013. </li>
+
+          <li><a href="lunchtalk2013.pdf">Disentangling the Stellar Populations in the Counter-Rotating Disc Galaxy NGC 4550</a>, Third Year Lunch Talk, presented at the Department of Physics and Astronomy, University of Nottingham, UK in March 2013.</li>
+
+
+           <li><a href="Inflativerse_lunchtalk.pdf">The Inflativerse</a>, Joint Lunch Talk with Boris Haeussler and Nina Hatch, presented at the Department of Physics and Astronomy, University of Nottingham, UK in February 2013. </li>
+
+
+           <li><a href="EvelynJohnston_IOP.pdf">The Inflativerse</a>, presented at the Very Early Career Physics Communicator Award meeting at the IOP, London, UK on  21st November 2012. </li>
+
+          <li><a href="lunchtalk2012.pdf">Spectroscopic bulge-disc decomposition: a new method to study the evolution of lenticular galaxies</a>, Second Year Lunch Talk, presented at the Department of Physics and Astronomy, University of Nottingham, UK in March 2012.</li>
+
+           <li><a href="lunchtalk2011.pdf">Spectroscopic bulge-disc decomposition: a new method to study the evolution of lenticular galaxies</a>, First Year Lunch Talk, presented at the Department of Physics and Astronomy, University of Nottingham, UK in July 2011.</li>
+
+ 
+	<p></p> 
+	<p></p>
+        <p></p>
+<p style=" position: absolute; bottom: 100; left: 10; width: 30%; text-align: left;"><font color=black> 
+<script language="javascript">
+var theDate = new Date(document.lastModified);
+var ukDate = theDate.toGMTString();
+document.write("<i>Last updated "+ukDate+"<I>");
+</script> 
+</font>    
+        
+      </div>
+    <div id="site_content_bottom"></div>
+    </div>
+
+
+<!--    <div <p style="  bottom: 10; left: 10; width: 50%; text-align: centre;"><font color=white> 
+<script language="javascript">
+var theDate = new Date(document.lastModified);
+var ukDate = theDate.toGMTString();
+document.write("<i>Last updated "+ukDate+"<I>");
+</script> 
+</font></p>
+ </div>-->
+
+
+
+
+    <div id="footer"><a><address><a href="mailto:ppxej@nottingham.ac.uk">Evelyn Johnston</a></address> \
+</a> <a href="http://www.dcarter.co.uk">design by dcarter</a></div>^M 
+  </div>^M 
+</body>^M 
+</html>^M 

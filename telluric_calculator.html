@@ -1,0 +1,395 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+
+
+<head>
+
+  <title>Evelyn Johnston Homepage</title>
+
+  <meta name="description" content="Homepage of Evelyn Johnston" />
+
+  <meta name="keywords" content="Evelyn, Johnston, astronomy, astrophysics, Nottingham, University, galaxy, evolution, lenticular, S0, Inflativerse, Evelyn Johnston" />
+
+  <meta name="author" content="Evelyn Johnston"> 
+
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+
+  <link rel="stylesheet" type="text/css" href="style/style2.css" />
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34490412-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+
+
+<body>
+
+  <div id="main">
+
+    <div id="links"></div>
+
+    <div id="header">
+
+      <div id="logo">
+
+        <div id="logo_text">
+
+          <h1>Evelyn Johnston</h1>
+
+        </div>
+
+      </div>
+
+      <div id="menubar">
+
+        <ul id="menu">
+
+          <!-- put class="tab_selected" in the li tag for the selected page - to highlight which page you're on -->
+
+          <li class="tab_selected"><a href="index.html">Home</a></li>
+
+          <li><a href="research.html">Research</a></li>
+
+          <li><a href="planetarium.html">Planetarium</a></li>
+
+          <li><a href="publications.html">Publications and Talks</a></li>
+
+          <li><a href="contact.html">Contact Me</a></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div id="site_content">
+
+      <div id="panel"><img src="style/new_panel.png" alt="Galaxies Image" /></div>
+
+      <div class="sidebar">
+
+        <!-- insert your sidebar items here -->
+
+<!--         <span class="left"><img src="style/photo6.png" alt="photo" /></span>
+        
+       <h1>Latest News</h1>
+
+
+       <h2>New Job</h2>
+
+         <h3>1st September 2014</h3>
+
+        <p>I have moved to Chile to start an ESO Fellowship.</p>
+        <p></p>
+        <p></p>
+
+
+	 <h2>Vice-Chancellor's Achievement Award</h2>
+
+         <h3>21st May 2013</h3>
+
+        <p>Boris Haeussler, Nina Hatch and I have been awarded a Vice-Chancellor's Achievement Award for our work in setting up and running The Inflativerse.</p>
+        <p></p>
+        <p></p>
+
+      <p>        <h2>Dean Moore Scholarship</h2>
+
+         <h3>19th February 2013</h3>
+
+        <p>I have been awarded the Dean Moore Scholarship by the University of Nottingham. This is a university endowed postgraduate prize in recognition of the progress I have made in my research and my contribution to the postegraduate community.</p>
+        <p></p>
+        <p></p>
+-->
+
+       
+  
+        <p></p></div> 
+        <div id="content">
+
+        <!-- insert the page content here -->
+
+    <!--     <h1>Welcome to my homepage</h1>-->
+        <p></p>
+        <p></p>
+
+
+
+
+<form action="" id="cakeform" onsubmit="return false;">
+   <fieldset>
+    <legend>Select your Telluric!</legend>
+    
+     Insert LST<input type="number"  name="LST" id="LST" onchange="check_LST()"></p>
+    Insert Airmass<input type="number"  name="AM" id="AM" onchange="check_airmass()"></p>
+    <p id="demo"></p>
+<p></p>   
+
+
+    <!-- Insert LST-->
+<!--<p>Insert LST<input id="LST" type="number">
+
+<button type="button" onclick="check_LST()">Submit</button>
+
+<p id="demo"></p>-->
+
+
+    <!-- Insert Airmass-->
+<!--<p>Insert Airmass<input id="airmass" type="number">
+
+<button type="button" onclick="check_airmass()">Submit</button>
+
+<p id="demo"></p>-->
+
+
+
+
+<script>
+function check_LST() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("LST").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 0 || x > 24) {
+        text = "LST not valid";
+    } else {
+        text = "LST OK" ;
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+    
+
+<script>
+function check_airmass() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("airmass").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 4) {
+        text = "Airmass not valid";
+    } else {
+        text = "Airmass OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+    text = "Airmass OK";
+}
+</script>    
+    
+    
+<!--<script>
+function getLST()
+{
+    //Assume form with id="theform"
+    var theForm = document.forms["cakeform"];
+    //Get a reference to the TextBox
+    var LST = theForm.elements["LST"];
+    var howmany =0;
+    //If the textbox is not blank
+    if(quantity.value!="")
+    {
+        howmany = parseInt(quantity.value);
+    }
+	if (isNaN(howmany) ||  howmany< 0 || howmany > 24) 
+	{
+		window.alert(LST out of range);
+	}
+return howmany;
+}
+</script> 
+<script>
+function getAM()
+{
+    //Assume form with id="theform"
+    var theForm = document.forms["cakeform"];
+    //Get a reference to the TextBox
+    var LST = theForm.elements["AM"];
+    var howmany =0;
+    //If the textbox is not blank
+    if(quantity.value!="")
+    {
+        howmany = parseInt(quantity.value);
+    }
+    if (isNaN(howmany) ||  howmany< 1 || howmany > 4) 
+	{
+		window.alert(Airmass out of range);
+	}
+return howmany;
+}
+</script>  
+-->  
+    
+<!--    
+    <p><label >Select Queue</label>
+    <p><input type="radio"  name="selectedqueue" value="Round6"
+    onclick="calculateTotal()" />
+    A0v</p>
+    <p><input type="radio"  name="selectedqueue" value="Round8"
+    onclick="calculateTotal()" />
+    B0V-B4V</p>
+    <p><input type="radio"  name="selectedqueue" value="Round10"
+    onclick="calculateTotal()" />
+    B5V-B9V</p>
+    <p><input type="radio"  name="selectedqueue" value="Round12"
+    onclick="calculateTotal()" />
+    other</p>
+ -->
+    <label >Filling</label>
+ 
+    <select id="queue" name='queue'>
+    <option value="A0V">A0V</option>
+    <option value="B0V-B4V">B0V-B4V</option>
+    <option value="B5V-B9V">B5V-B9V</option>
+    <option value="G0V-G4V">other</option>
+   </select>
+    <br/>
+    <p>
+    <label for='inlinelabel' class="inlinelabel">
+    Avoid zenith crossing?</label>
+    <input type="checkbox" id="avoidzenith" name='avoidzenith'/>
+   </p>
+
+
+<script>
+var name= new Array();
+var RA= new Array();
+var dec= new Array();
+name["A0V"]=[0000,0001];
+RA["A0V"]=[00.0000,12.0000];
+dec["A0V"]=[-30.0000,-30.0000];
+
+name["B0V-B4V"]=[0000,0001];
+RA["B0V-B4V"]=[00.0000,12.0000];
+dec["B0V-B4V"]=[-30.0000,-30.0000];
+
+name["B5V-B9V"]=[0000,0001];
+RA["B5V-B9V"]=[00.0000,12.0000];
+dec["B5V-B9V"]=[-30.0000,-30.0000];
+
+name["G0V-G4V"]=[0000,0001];
+RA["G0V-G4V"]=[00.0000,12.0000];
+dec["G0V-G4V"]=[-30.0000,-30.0000];
+And, here is the script that finds the queue from the drop down selection
+
+
+queue=[];
+for (i = 0; i < name.length; ++i)
+{
+    queue[i] =Array(name[i], RA[i], dec[i]);
+}
+
+
+
+//This function finds the queue based on the
+//drop down selection
+//function getFillingPrice()
+function GetCoordinates()
+{
+    var queue_array=0;
+    //Get a reference to the form id="cakeform"
+    var theForm = document.forms["cakeform"];
+    //Get a reference to the select id="queue"
+     var selectedqueue = theForm.elements["queue"];
+ 
+    //set queue array equal to value user chose
+    //For example filling_prices["Lemon".value] would be equal to 5
+//    queue_array = queue[selectedqueue.value];
+    queue_array = queue[selectedqueue];
+ 
+    //finally we return queue_array
+    
+    return queue_array;
+}
+</script> 
+
+<!--test=GetCoordinates()
+button onclick="document.write(test)">try it!</button>
+"document.write(test)"
+
+ document.getElementById('test').innerHTML =
+                                      "Total Price For Cake $"+test;
+-->
+<script>
+function getTotal()
+{
+    //Here we get the total price by calling our function
+    //Each function returns a number so by calling them we add the values they return together
+    //var cakePrice = getCakeSizePrice() + getFillingPrice() +
+    //                      candlesPrice() + insciptionPrice();
+ var test=0;
+ test=GetCoordinates();
+
+    //display the result
+ document.getElementById('totalPrice').innerHTML =
+                                      "Total Price For Cake $"+test;
+ 
+}
+</script>
+
+    <div id="totalPrice"></div>
+ 
+    </fieldset>
+</form>
+
+
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+
+
+  
+<p style=" position: absolute; bottom: 100; left: 10; width: 30%; text-align: left;"><font color=black> 
+<script language="javascript">
+var theDate = new Date(document.lastModified);
+var ukDate = theDate.toGMTString();
+document.write("<i>Last updated "+ukDate+"<I>");
+</script> 
+</font>    
+        </div>
+    <div id="site_content_bottom"></div>
+
+    </div>
+
+</p>
+
+        <p></p>
+        <p></p> 
+        <p></p> 
+        <p></p>  
+        <p></p>  
+   
+
+
+
+    <div id="footer"><a><address><a href="mailto:ejohnsto@eso.org">Evelyn Johnston</a></address> </a> <a href="http://www.dcarter.co.uk">design by dcarter</a></div>
+
+  </div>
+
+</body>
+
+</html>
+
