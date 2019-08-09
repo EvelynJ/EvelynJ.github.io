@@ -1,0 +1,103 @@
+Create Master Bias frames for each set of observations  
+======================================================
+OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/bias.log --output-dir=products/ muse_bias --merge --nifu=-1 sof/bias.sof
+
+
+
+
+
+
+
+
+
+Create Master LAMP Flat frames for each set of observations  
+======================================================
+OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/flat.log --output-dir=products/ muse_flat --merge --nifu=-1 sof/flat.sof
+
+
+
+
+
+
+Create wavelength calibrations for each set of observations  
+======================================================
+OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/wavecal.log --output-dir=products/ muse_wavecal --merge --nifu=-1 --resample --residuals sof/wave.sof 
+
+
+
+
+
+Create master sky flat frames for each set of observations  
+======================================================
+OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/skyflat.log --output-dir=products/ muse_twilight sof/skyflat.sof
+
+
+
+
+
+
+Basic reduction for science and standard star frames  
+======================================================
+OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/scibasic.log --output-dir=products/science/ muse_scibasic --nifu=-1 --merge sof/scibasic.sof
+#OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/scibasic_std.log --output-dir=products/std/ muse_scibasic --nifu=-1 --merge sof/scibasic_std.sof
+
+
+
+
+
+#Flux calibration from standard star frames  
+#======================================================
+OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/std.log --output-dir=products/std/ muse_standard --filter=white sof/std_star.sof
+
+
+
+
+
+#Create sky measurements for each science frame using dedicated sky frame  
+#======================================================
+OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/sky_background.log --output-dir=products/science/ muse_create_sky sof/sky_background.sof
+
+
+
+
+
+#Run muse_scipost on each image twice and move files  
+#============================================================
+# A, Exp 1
+OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/scipost_exp1.log   --output-dir=products/science/ muse_scipost --save=cube,skymodel,individual --skymethod=simple sof/scipost_exp1.sof
+mv products/science/DATACUBE_FINAL.fits products/science/DATACUBE_FINAL_exp1.fits 
+mv products/science/IMAGE_FOV_0001.fits products/science/IMAGE_FOV_0001_exp1.fits 
+mv products/science/PIXTABLE_REDUCED_0001.fits products/science/PIXTABLE_REDUCED_0001_exp1.fits
+mv products/science/SKY_IMAGE_0001.fits products/science/SKY_IMAGE_0001_exp1.fits
+mv products/science/SKY_MASK_0001.fits products/science/SKY_MASK_0001_exp1.fits
+mv products/science/SKY_SPECTRUM_0001.fits products/science/SKY_SPECTRUM_0001_exp1.fits
+
+## A Exp 2
+#OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/scipost_exp2.log   --output-dir=products/science/ muse_scipost --save=cube,skymodel,individual --skymethod=simple sof/scipost_exp2.sof
+#mv products/science/DATACUBE_FINAL.fits products/science/DATACUBE_FINAL_exp2.fits 
+#mv products/science/IMAGE_FOV_0001.fits products/science/IMAGE_FOV_0001_exp2.fits 
+#mv products/science/PIXTABLE_REDUCED_0001.fits products/science/PIXTABLE_REDUCED_0001_exp2.fits
+#mv products/science/SKY_IMAGE_0001.fits products/science/SKY_IMAGE_0001_exp2.fits
+#mv products/science/SKY_MASK_0001.fits products/science/SKY_MASK_0001_exp2.fits
+#mv products/science/SKY_SPECTRUM_0001.fits products/science/SKY_SPECTRUM_0001_exp2.fits
+
+
+
+
+
+#measure offsets between multiple exposures   
+#============================================================================================================
+OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/exp_align.log --output-dir=products/  muse_exp_align --weight=true sof/exp_align.sof
+
+
+#combine exposures  
+#============================================================================================================
+OMP_NUM_THREADS=21 nohup taskset -c 42-62 /raid/ejohnston/Esorex/bin/esorex --log-file=log/exp_combine.log --output-dir=products/ muse_exp_combine --lambdamin=6000 --lambdamax=7000   sof/exp_combine.sof
+
+
+
+
+
+
+
+
